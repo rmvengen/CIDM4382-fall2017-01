@@ -5,7 +5,7 @@
 
 
 
-* getting-MEAN4 is the Pizza Locator
+* getting-MEAN is the test for the Loc8r 
 *  Assignment2 is the JSON files for the Airplane Project
 
 
