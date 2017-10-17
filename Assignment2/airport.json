@@ -9,382 +9,1133 @@ var AirportSchema = new mongoose.Schema({
     runways: [RunwaySchema]
 })
 
-{"iata": "ABI" , "icao": "KABI" , "airportName": "Abilene Regional Airport" , "airportCity": "Abilene" , "airporLat" : "32.4113333" , "airportLon": "-99.6818889" , "airportElevation": 1790.6 , "runways": 4[RunwaySchema]}
-{"iata": "ABI" , "icao": "KABI" , "airportName": "Abilene Regional Airport" , "airportCity": "Abilene" , "airporLat" : "32.4113333" , "airportLon": "-99.6818889" , "airportElevation": 1790.6 , "runways":22 [RunwaySchema]}
-{"iata": "ABI" , "icao": "KABI" , "airportName": "Abilene Regional Airport" , "airportCity": "Abilene" , "airporLat" : "32.4113333" , "airportLon": "-99.6818889" , "airportElevation": 1790.6 , "runways": 17R [RunwaySchema]}
-{"iata": "ABI" , "icao": "KABI" , "airportName": "Abilene Regional Airport" , "airportCity": "Abilene" , "airporLat" : "32.4113333" , "airportLon": "-99.6818889" , "airportElevation": 1790.6 , "runways": 35L[RunwaySchema]}
-{"iata": "ABI" , "icao": "KABI" , "airportName": "Abilene Regional Airport" , "airportCity": "Abilene" , "airporLat" : "32.4113333" , "airportLon": "-99.6818889" , "airportElevation": 1790.6 , "runways": 17L [RunwaySchema]}
-{"iata": "ABI" , "icao": "KABI" , "airportName": "Abilene Regional Airport" , "airportCity": "Abilene" , "airporLat" : "32.4113333" , "airportLon": "-99.6818889" , "airportElevation": 1790.6 , "runways": 35R[RunwaySchema]}
-
-
-{"iata": "AMA" , "icao": "KAMA" , "airportName": "Rick Husband Amarillo International Airport" , "airportCity": "Amarillo" , "airporLat" : "335.2193611" , "airportLon": "-101.7059167" , "airportElevation": 3606.6, "runways": 4[RunwaySchema]}
-{"iata": "AMA" , "icao": "KAMA" , "airportName": "Rick Husband Amarillo International Airport" , "airportCity": "Amarillo" , "airporLat" : "35.2193611" , "airportLon": "-101.7059167" , "airportElevation": 3606.6, "runways":22 [RunwaySchema]}
-{"iata": "AMA" , "icao": "KAMA" , "airportName": "Rick Husband Amarillo International Airport" , "airportCity": "Amarillo" , "airporLat" : "35.2193611" , "airportLon": "-101.7059167" , "airportElevation": 3606.6, "runways": 13[RunwaySchema]}
-{"iata": "AMA" , "icao": "KAMA" , "airportName": "Rick Husband Amarillo International Airport" , "airportCity": "Amarillo" , "airporLat" : "335.2193611" , "airportLon": "-101.7059167" , "airportElevation": 3606.6, "runways": 31unwaySchema]}
-
-
-{"iata": "AUS" , "icao": "KAUS" , "airportName": "Austin-Bergstrom International Airport" , "airportCity": "Austin" , "airporLat" : "30.1945278" , "airportLon": "-97.6698889" , "airportElevation": 541.6, "runways": 17R [RunwaySchema]}
-{"iata": "AUS" , "icao": "KAUS" , "airportName": "Austin-Bergstrom International Airport" , "airportCity": "Austin" , "airporLat" : "30.1945278" , "airportLon": "-97.6698889" , "airportElevation": 541.6, "runways": 35L[RunwaySchema]}
-{"iata": "AUS" , "icao": "KAUS" , "airportName": "Austin-Bergstrom International Airport" , "airportCity": "Austin" , "airporLat" : "30.1945278" , "airportLon": "-97.6698889" , "airportElevation": 541.6, "runways": 17L [RunwaySchema]}
-{"iata": "AUS" , "icao": "KAUS" , "airportName": "Austin-Bergstrom International Airport" , "airportCity": "Austin" , "airporLat" : "30.1945278" , "airportLon": "-97.6698889" , "airportElevation": 541.6, "runways": 35R[RunwaySchema]}
-
-
-{"iata": "BPT" , "icao": "KBPT" , "airportName": "Jack Brooks Regional Airport" , "airportCity": "Beaumont/Port Arthur" , "airporLat" : "29.9508333" , "airportLon": "-94.0206944" , "airportElevation": 15.4, "runways": 12 [RunwaySchema]}
-{"iata": "BPT" , "icao": "KBPT" , "airportName": "Jack Brooks Regional Airport" , "airportCity": "Beaumont/Port Arthur" , "airporLat" : "29.9508333" , "airportLon": "-94.0206944" , "airportElevation": 15.4, "runways": 30[RunwaySchema]}
-{"iata": "BPT" , "icao": "KBPT" , "airportName": "Jack Brooks Regional Airport" , "airportCity": "Beaumont/Port Arthur" , "airporLat" : "29.9508333" , "airportLon": "-94.0206944" , "airportElevation": 15.4, "runways": 16 [RunwaySchema]}
-{"iata": "BPT" , "icao": "KBPT" , "airportName": "Jack Brooks Regional Airport" , "airportCity": "Beaumont/Port Arthur" , "airporLat" : "29.9508333" , "airportLon": "-94.0206944" , "airportElevation": 15.4, "runways": 34[RunwaySchema]}
-
-
-{"iata": "BRO" , "icao": "KBRO" , "airportName": "Brownsville/South Padre Island International Airport" , "airportCity": "Brownsville" , "airporLat" : "25.9061354" , "airportLon":"-97.4259949" , "airportElevation": 22.4, "runways": 13[RunwaySchema]}
-{"iata": "BRO" , "icao": "KBRO" , "airportName": "Brownsville/South Padre Island International Airport" , "airportCity": "Brownsville" , "airporLat" : "25.9061354" , "airportLon":"-97.4259949" , "airportElevation": 22.4, "runways": 31[RunwaySchema]}
-{"iata": "BRO" , "icao": "KBRO" , "airportName": "Brownsville/South Padre Island International Airport" , "airportCity": "Brownsville" , "airporLat" : "25.9061354" , "airportLon":"-97.4259949" , "airportElevation": 22.4, "runways": 18[RunwaySchema]}
-{"iata": "BRO" , "icao": "KBRO" , "airportName": "Brownsville/South Padre Island International Airport" , "airportCity": "Brownsville" , "airporLat" : "25.9061354" , "airportLon":"-97.4259949" , "airportElevation": 22.4, "runways": 36[RunwaySchema]}
-
-
-{"iata": "CLL" , "icao": "KCLL" , "airportName": "Easterwood Airport" , "airportCity": "College Station" , "airporLat" : "30.5885833" , "airportLon":"-96.3638333" , "airportElevation": 320.6 , "runways": 16[RunwaySchema]}
-{"iata": "CLL" , "icao": "KCLL" , "airportName": "Easterwood Airport" , "airportCity": "College Station" , "airporLat" : "30.5885833" , "airportLon":"-96.3638333" , "airportElevation": 320.6, "runways": 34[RunwaySchema]}
-{"iata": "CLL" , "icao": "KCLL" , "airportName": "Easterwood Airport" , "airportCity": "College Station" , "airporLat" : "30.5885833" , "airportLon":"-96.3638333" , "airportElevation": 320.6, "runways": 10[RunwaySchema]}
-{"iata": "CLL" , "icao": "KCLL" , "airportName": "Easterwood Airport" , "airportCity": "College Station" , "airporLat" : "30.5885833" , "airportLon":"-96.3638333" , "airportElevation": 320.6, "runways": 28[RunwaySchema]}
-{"iata": "CLL" , "icao": "KCLL" , "airportName": "Easterwood Airport" , "airportCity": "College Station" , "airporLat" : "30.5885833" , "airportLon":"-96.3638333" , "airportElevation": 320.6 , "runways": 4[RunwaySchema]}
-{"iata": "CLL" , "icao": "KCLL" , "airportName": "Easterwood Airport" , "airportCity": "College Station" , "airporLat" : "30.5885833" , "airportLon":"-96.3638333" , "airportElevation": 320.6, "runways": 33[RunwaySchema]}
-
-
-{"iata": "CRP" , "icao": "KCRP" , "airportName": "Corpus Christi International Airport" , "airportCity": "Corpus Christi" , "airporLat" : "27.7721944" , "airportLon":"-97.5024167" , "airportElevation": 46.1, "runways": 13[RunwaySchema]}
-{"iata": "CRP" , "icao": "KCRP" , "airportName": "Corpus Christi International Airport" , "airportCity": "Corpus Christi" , "airporLat" : "27.7721944" , "airportLon":"-97.5024167" , "airportElevation": 46.1, "runways": 31[RunwaySchema]}
-{"iata": "CRP" , "icao": "KCRP" , "airportName": "Corpus Christi International Airport" , "airportCity": "Corpus Christi" , "airporLat" : "27.7721944" , "airportLon":"-97.5024167" , "airportElevation": 46.1, "runways": 18[RunwaySchema]}
-{"iata": "CRP" , "icao": "KCRP" , "airportName": "Corpus Christi International Airport" , "airportCity": "Corpus Christi" , "airporLat" : "27.7721944" , "airportLon":"-97.5024167" , "airportElevation": 46.1, "runways": 36[RunwaySchema]}
-
-
-{"iata": "DAL" , "icao": "KDAL" , "airportName": "Dallas Love Field" , "airportCity": "Dallas" , "airporLat" : "32.8471122" , "airportLon":"-96.8517719" , "airportElevation": 486.9, "runways": 13R[RunwaySchema]}
-{"iata": "DAL" , "icao": "KDAL" , "airportName": "Dallas Love Field" , "airportCity": "Dallas" , "airporLat" : "32.8471122" , "airportLon":"-96.8517719" , "airportElevation": 486.9, "runways": 31L[RunwaySchema]}
-{"iata": "DAL" , "icao": "KDAL" , "airportName": "Dallas Love Field" , "airportCity": "Dallas" , "airporLat" : "32.8471122" , "airportLon":"-96.8517719" , "airportElevation": 486.9, "runways": 13L[RunwaySchema]}
-{"iata": "DAL" , "icao": "KDAL" , "airportName": "Dallas Love Field" , "airportCity": "Dallas" , "airporLat" : "32.8471122" , "airportLon":"-96.8517719" , "airportElevation": 486.9, "runways": 31R[RunwaySchema]}
-
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607 , "runways": 17C[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 35C[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 17R[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 35L[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 18L[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 36R[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 18R[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 36L[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 13R[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 31L[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 13L[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 31R[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 17L[RunwaySchema]}
-{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607, "runways": 35R[RunwaySchema]}
-
-
-{"iata": "DRT" , "icao": "KDRT" , "airportName": "Del Rio International Airport" , "airportCity": "Del Rio" , "airporLat" : "29.3742069" , "airportLon":"-100.9271569" , "airportElevation": 1002.2, "runways": 13[RunwaySchema]}
-{"iata": "DRT" , "icao": "KDRT" , "airportName": "Del Rio International Airport" , "airportCity": "Del Rio" , "airporLat" : "29.3742069" , "airportLon":"-100.9271569" , "airportElevation": 1002.2, "runways": 31[RunwaySchema]}
-
-{"iata": "ELP" , "icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 4[RunwaySchema]}
-{"iata": "ELP" , "icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 22[RunwaySchema]}
-{"iata": "ELP" , "icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 8R[RunwaySchema]}
-{"iata": "ELP" , "icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 26L[RunwaySchema]}
-{"iata": "ELP" , "icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 8L[RunwaySchema]}
-{"iata": "ELP" , "icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 26RS[RunwaySchema]}
-
-{"iata": "GRK" , "icao": "KGRK" , "airportName": "Killeen–Fort Hood Regional Airport" , "airportCity": "Fort Hood/Killeen" , "airporLat" : "31.0672500" , "airportLon":"-97.8289167" , "airportElevation": 1015.3, "runways": 15[RunwaySchema]}
-{"iata": "GRK" , "icao": "KGRK" , "airportName": "Killeen–Fort Hood Regional Airport" , "airportCity": "Fort Hood/Killeen" , "airporLat" : "31.0672500" , "airportLon":"-97.8289167" , "airportElevation": 1015.3, "runways": 33[RunwaySchema]}
-
-{"iata": "HRL" , "icao": "KHRL" , "airportName": "Valley International Airport" , "airportCity": "Harlingen" , "airporLat" : "26.2271111" , "airportLon":"-97.6551389" , "airportElevation": 36.3, "runways": 17R[RunwaySchema]}
-{"iata": "HRL" , "icao": "KHRL" , "airportName": "Valley International Airport" , "airportCity": "Harlingen" , "airporLat" : "26.2271111" , "airportLon":"-97.6551389" , "airportElevation": 36.3, "runways": 35L[RunwaySchema]}
-{"iata": "HRL" , "icao": "KHRL" , "airportName": "Valley International Airport" , "airportCity": "Harlingen" , "airporLat" : "26.2271111" , "airportLon":"-97.6551389" , "airportElevation": 36.3, "runways": 13[RunwaySchema]}
-{"iata": "HRL" , "icao": "KHRL" , "airportName": "Valley International Airport" , "airportCity": "Harlingen" , "airporLat" : "26.2271111" , "airportLon":"-97.6551389" , "airportElevation": 36.3, "runways": 31[RunwaySchema]}
-{"iata": "HRL" , "icao": "KHRL" , "airportName": "Valley International Airport" , "airportCity": "Harlingen" , "airporLat" : "26.2271111" , "airportLon":"-97.6551389" , "airportElevation": 36.3, "runways": 17L[RunwaySchema]}
-{"iata": "HRL" , "icao": "KHRL" , "airportName": "Valley International Airport" , "airportCity": "Harlingen" , "airporLat" : "26.2271111" , "airportLon":"-97.6551389" , "airportElevation": 36.3, "runways": 35R[RunwaySchema]}
-
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 15L[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 33R[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 9[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 27[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 15R[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 33L[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 8R[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 26L[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 8L[RunwaySchema]}
-{"iata": "IAH" , "icao": "KIAH" , "airportName": "George Bush Intercontinental Airport" , "airportCity": "Houston" , "airporLat" : "29.9844444" , "airportLon":"-95.3414444" , "airportElevation": 	96.4, "runways": 26R[RunwaySchema]}
+{
+    "iata": "ABI" , 
+    "icao": "KABI" , 
+    "airportName": "Abilene Regional Airport" , 
+    "airportCity": "Abilene" , 
+    "airporLat" : "32.4113333" ,
+    "airportLon": "-99.6818889" , 
+    "airportElevation": 1790.6 ,
+    "runways": [
+    {
+        "icao": "KABI",
+        "runwayId":"4", 
+        "runwayLength":3678, 
+        "runwayHeadingMagnetic": 047,
+        "runwayHeadingTrue": 052  
+    },
+    {
+        "icao": "KABI", 
+        "runwayId":"22", 
+        "runwayLength":3678, 
+        "runwayHeadingMagnetic": 047,
+        "runwayHeadingTrue": 052 
+    },
+    {
+        "icao": "KABI", 
+        "runwayId": "17R", 
+        "runwayLength":7202, 
+        "runwayHeadingMagnetic": 175,
+        "runwayHeadingTrue": 180
+    },
+    {
+        "icao": "KABI", 
+        "runwayId":"35L", 
+        "runwayLength":7202, 
+        "runwayHeadingMagnetic": 355,
+        "runwayHeadingTrue": 360    
+    },
+    {
+        "icao": "KABI", 
+        "runwayId": "17L", 
+        "runwayLength":7198, 
+        "runwayHeadingMagnetic": 175,
+        "runwayHeadingTrue": 180
+    },
+    {
+        "icao": "KABI", 
+        "runwayId":"35R", 
+        "runwayLength":7198, 
+        "runwayHeadingMagnetic": 355, 
+        "runwayHeadingTrue": 360  
+    },
+    ]}
+
+{
+    "iata": "AMA" , 
+    "icao": "KAMA" , 
+    "airportName": "Rick Husband Amarillo International Airport" , 
+    "airportCity": "Amarillo" , 
+    "airporLat" : "335.2193611" , 
+    "airportLon": "-101.7059167" , 
+    "airportElevation": 3606.6, 
+    "runways": [
+    {
+        "icao": "KAMA", 
+        "runwayId":"4", 
+        "runwayLength": 13502, 
+        "runwayHeadingMagnetic": 038, 
+        "runwayHeadingTrue": 046    
+    },
+    {
+        "icao": "KAMA", 
+        "runwayId":"22", 
+        "runwayLength": 13502,
+        "runwayHeadingMagnetic": 218, 
+        "runwayHeadingTrue": 226   
+    },
+    {
+        "icao": "KAMA", 
+        "runwayId":"13",
+        "runwayLength": 7901, 
+        "runwayHeadingMagnetic": 129, 
+        "runwayHeadingTrue": 137  
+    },
+    {
+        "icao": "KAMA",
+        "runwayId":"31", 
+        "runwayLength": 7901, 
+        "runwayHeadingMagnetic": 309,
+        "runwayHeadingTrue": 317
+    }
+]}
+
+{
+    "iata": "AUS" ,
+    "icao": "KAUS" ,
+    "airportName": "Austin-Bergstrom International Airport" , 
+    "airportCity": "Austin" , 
+    "airporLat" : "30.1945278" , 
+    "airportLon": "-97.6698889" , 
+    "airportElevation": 541.6, 
+    "runways": [
+    {
+        "icao": "KAUS",
+        "runwayId": "17R", 
+        "runwayLength": 12250, 
+        "runwayHeadingMagnetic": 175, 
+        "runwayHeadingTrue": 180    
+    },
+    {
+        "icao": "KAUS", 
+        "runwayId":"35L", 
+        "runwayLength": 12250, 
+        "runwayHeadingMagnetic": 355,
+        "runwayHeadingTrue": 360
+    },
+    {
+        "icao": "KAUS", 
+        "runwayId": "17L", 
+        "runwayLength": 9000, 
+        "runwayHeadingMagnetic": 175, 
+        "runwayHeadingTrue": 180 
+    },
+    {
+        "icao": "KAUS", 
+        "runwayId":"35R", 
+        "runwayLength": 9000, 
+        "runwayHeadingMagnetic": 355, 
+        "runwayHeadingTrue": 360 
+    }
+    ]}
+
+{"iata": "BPT" , 
+"icao": "KBPT" , 
+"airportName": "Jack Brooks Regional Airport" , 
+"airportCity": "Beaumont/Port Arthur" ,
+"airporLat" : "29.9508333" , 
+"airportLon": "-94.0206944" , 
+"airportElevation": 15.4, 
+"runways": [
+    {
+        "icao": "KBPT", 
+        "runwayId": "12", 
+        "runwayLength": 6750, 
+        "runwayHeadingMagnetic": 116, 
+        "runwayHeadingTrue": 121  
+    },    
+    {
+        "icao": "KBPT", 
+        "runwayId": "30", 
+        "runwayLength": 6750, 
+        "runwayHeadingMagnetic": 296,
+        "runwayHeadingTrue": 301 
+    },
+    {
+        "icao": "KBPT", 
+        "runwayId": "16", 
+        "runwayLength": 5070,
+        "runwayHeadingMagnetic": 161,
+        "runwayHeadingTrue": 166  
+    },
+    {
+        "icao": "KBPT", 
+        "runwayId": "34",
+        "runwayLength": 5070, 
+        "runwayHeadingMagnetic": 341, 
+        "runwayHeadingTrue": 346
+    }
+    ]}
+
+{
+    "iata": "BRO" ,
+    "icao": "KBRO" , 
+    "airportName": "Brownsville/South Padre Island International Airport" ,
+    "airportCity": "Brownsville" ,
+    "airporLat" : "25.9061354" , 
+    "airportLon":"-97.4259949" ,
+    "airportElevation": 22.4, 
+    "runways": [
+    {
+        "icao": "KBRO",
+        "runwayId": "13", 
+        "runwayLength": 7399 , 
+        "runwayHeadingMagnetic": 132, 
+        "runwayHeadingTrue": 135
+    },
+    {
+        "icao": "KBRO", 
+        "runwayId": "31", 
+        "runwayLength": 7399, 
+        "runwayHeadingMagnetic": 312, 
+        "runwayHeadingTrue": 315    
+    },
+    {
+        "icao": "KBRO", 
+        "runwayId": "18", 
+        "runwayLength": 6000, 
+        "runwayHeadingMagnetic": 179, 
+        "runwayHeadingTrue": 182  
+    },
+    {
+        "icao": "KBRO", 
+        "runwayId": "36", 
+        "runwayLength": 6000, 
+        "runwayHeadingMagnetic": 182, 
+        "runwayHeadingTrue": 002 
+    }
+]}
+
+{"iata": "CLL" , 
+"icao": "KCLL" , 
+"airportName": "Easterwood Airport" , 
+"airportCity": "College Station" , 
+"airporLat" : "30.5885833" , 
+"airportLon":"-96.3638333" , 
+"airportElevation": 320.6 , 
+"runways": [
+    {
+        "icao": "KCLL",
+        "runwayId": "16", 
+        "runwayLength": 7000, 
+        "runwayHeadingMagnetic": 163,
+        "runwayHeadingTrue": 169
+        
+    },
+    {
+        "icao": "KCLL", 
+        "runwayId": "34", 
+        "runwayLength": 7000, 
+        "runwayHeadingMagnetic": 343,
+        "runwayHeadingTrue": 349
+        
+    },
+    {
+        "icao": "KCLL", 
+        "runwayId": "10", 
+        "runwayLength": 5159, 
+        "runwayHeadingMagnetic": 103,
+        "runwayHeadingTrue": 109
+        
+    },
+    {
+        "icao": "KCLL", 
+        "runwayId": "28", 
+        "runwayLength": 5159, 
+        "runwayHeadingMagnetic": 283,
+        "runwayHeadingTrue": 289
+        
+    },
+    {
+        "icao": "KCLL", 
+        "runwayId": "4", 
+        "runwayLength": 5149 , 
+        "runwayHeadingMagnetic": 044 ,
+        "runwayHeadingTrue": 050
+        
+    },
+    {
+        "icao": "KCLL", 
+        "runwayId": "22", 
+        "runwayLength": 5149, 
+        "runwayHeadingMagnetic": 224,
+        "runwayHeadingTrue": 230
+        
+    }
+    ]}
+
+
+{"iata": "CRP" , 
+"icao": "KCRP" , 
+"airportName": "Corpus Christi International Airport" , 
+"airportCity": "Corpus Christi" , 
+"airporLat" : "27.7721944" , 
+"airportLon":"-97.5024167" , 
+"airportElevation": 46.1, 
+"runways": [
+    {
+        "icao": "KCRP", 
+        "runwayId": "13", 
+        "runwayLength": 7510 , 
+        "runwayHeadingMagnetic": 132, 
+        "runwayHeadingTrue": 136   
+    },
+    {
+        "icao": "KCRP", 
+        "runwayId": "31", 
+        "runwayLength": 7510, 
+        "runwayHeadingMagnetic": 312, 
+        "runwayHeadingTrue": 316
+    },
+    {
+        "icao": "KCRP", 
+        "runwayId": "18",
+        "runwayLength": 6080, 
+        "runwayHeadingMagnetic": 175, 
+        "runwayHeadingTrue": 179  
+    },
+    {
+        "icao": "KCRP", 
+        "runwayId": "36", 
+        "runwayLength": 6080, 
+        "runwayHeadingMagnetic": 355, 
+        "runwayHeadingTrue": 359
+    }
+]}
+
+{"iata": "DAL" , 
+"icao": "KDAL" , 
+"airportName": "Dallas Love Field" , 
+"airportCity": "Dallas" , 
+"airporLat" : "32.8471122" , 
+"airportLon":"-96.8517719" , 
+"airportElevation": 486.9, 
+"runways": 13R[
+    {
+        "icao": "KDAL", 
+        "runwayId": "13L", "runwayLength": 7752, "runwayHeadingMagnetic": 133, "runwayHeadingTrue": 136},
+    {
+        "icao": "KDAL", 
+        "runwayId": "31R", "runwayLength": 7752, "runwayHeadingMagnetic": 313, "runwayHeadingTrue": 316},
+    {
+        "icao": "KDAL", 
+        "runwayId": "13L", "runwayLength": 8800, "runwayHeadingMagnetic": 133, "runwayHeadingTrue": 136},
+    {
+        "icao": "KDAL", 
+        "runwayId": "31R", "runwayLength": 8800, "runwayHeadingMagnetic": 313, "runwayHeadingTrue": 316}
+]}
+
+{"iata": "DFW" , "icao": "KDFW" , "airportName": "Dallas/Fort Worth International Airport" , "airportCity": "Dallas/Fort Worth" , "airporLat" : "32.8972316" , "airportLon":"-97.0376949" , "airportElevation": 607 , "runways": 17C[
+    {
+        "icao": "KDFW", "runwayId": "17C", "runwayLength": 13401, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180},
+    {
+        "icao": "KDFW", "runwayId": "35C", "runwayLength": 13401, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000},
+    {
+        "icao": "KDFW", "runwayId": "17R", "runwayLength": 13401, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180},
+    {
+        "icao": "KDFW", "runwayId": "35L", "runwayLength": 13401, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000},
+    {
+        "icao": "KDFW", "runwayId": "18L", "runwayLength": 13400, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180},
+    {
+        "icao": "KDFW", "runwayId": "36R", "runwayLength": 13400, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000},
+    {
+        "icao": "KDFW", "runwayId": "18R", "runwayLength": 13400, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180},
+    {
+        "icao": "KDFW", "runwayId": "36L", "runwayLength": 13400, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000},
+    {
+        "icao": "KDFW", "runwayId": "13R", "runwayLength": 9301, "runwayHeadingMagnetic": 135, "runwayHeadingTrue": 139},
+    {
+        "icao": "KDFW", "runwayId": "31L", "runwayLength": 9301, "runwayHeadingMagnetic": 315, "runwayHeadingTrue": 319},
+    {
+        "icao": "KDFW", "runwayId": "13L", "runwayLength": 9000, "runwayHeadingMagnetic": 131, "runwayHeadingTrue": 135},
+    {
+        "icao": "KDFW", "runwayId": "31R", "runwayLength": 9000, "runwayHeadingMagnetic": 311, "runwayHeadingTrue": 315},
+    {
+        "icao": "KDFW", "runwayId": "17L", "runwayLength": 8500, "runwayHeadingMagnetic": 186, "runwayHeadingTrue": 180},
+    {
+        "icao": "KDFW", "runwayId": "35R", "runwayLength": 8500, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000}
+]}
+
+
+{"iata": "DRT" ,
+"icao": "KDRT" , 
+"airportName": "Del Rio International Airport" , 
+"airportCity": "Del Rio" , "airporLat" : "29.3742069" , 
+"airportLon":"-100.9271569" , 
+"airportElevation": 1002.2, 
+"runways": 13[
+    {
+        "icao": "KDRT", "runwayId": "13", "runwayLength": 6300, "runwayHeadingMagnetic": 132, "runwayHeadingTrue": 140},
+    {
+        "icao": "KDRT", "runwayId": "31", "runwayLength": 6300, "runwayHeadingMagnetic": 312, "runwayHeadingTrue": 320}
+]}
+
+{"iata": "ELP" , 
+"icao": "KELP" , "airportName": "El Paso International Airport" , "airportCity": "El Paso" , "airporLat" : "31.8073333" , "airportLon": "-106.3763611" , "airportElevation": 3961.7, "runways": 4[
+    {
+        "icao": "KELP", "runwayId": "4", "runwayLength": 12020, "runwayHeadingMagnetic": 042, "runwayHeadingTrue": 050},
+    {
+        "icao": "KELP", "runwayId": "22", "runwayLength": 12020, "runwayHeadingMagnetic": 222, "runwayHeadingTrue": 230},
+    {
+        "icao": "KELP", "runwayId": "8R", "runwayLength": 9025, "runwayHeadingMagnetic": 085, "runwayHeadingTrue": 093},
+    {
+        "icao": "KELP", "runwayId": "26L", "runwayLength": 9025, "runwayHeadingMagnetic": 265, "runwayHeadingTrue": 273},
+    {
+        "icao": "KELP", "runwayId": "8L", "runwayLength": 5493, "runwayHeadingMagnetic": 085, "runwayHeadingTrue": 093},
+    {
+        "icao": "KELP", "runwayId": "26R", "runwayLength": 5493, "runwayHeadingMagnetic": 265, "runwayHeadingTrue": 273}
+]}
+
+{"iata": "GRK" , "icao": "KGRK" , "airportName": "Killeen–Fort Hood Regional Airport" , "airportCity": "Fort Hood/Killeen" , "airporLat" : "31.0672500" , "airportLon":"-97.8289167" , "airportElevation": 1015.3, "runways": 15[
+    {
+        "icao": "KGRK", "runwayId": "15", "runwayLength": 10000, "runwayHeadingMagnetic": 150, "runwayHeadingTrue": 157}
+    {
+        "icao": "KGRK", "runwayId": "33", "runwayLength": 10000, "runwayHeadingMagnetic": 330, "runwayHeadingTrue": 337}
+    ]}
+
+{"iata": "HRL" ,
+"icao": "KHRL" , 
+"airportName": "Valley International Airport" ,
+"airportCity": "Harlingen" ,
+"airporLat" : "26.2271111" , 
+"airportLon":"-97.6551389" ,
+"airportElevation": 36.3, 
+"runways": [
+    {
+        "icao": "KHRL", 
+        "runwayId": "17R",
+        "runwayLength": 8301,
+        "runwayHeadingMagnetic": 176, 
+        "runwayHeadingTrue": 181
+    },
+    {
+        "icao": "KHRL", 
+        "runwayId": "35L",
+        "runwayLength": 8301,
+        "runwayHeadingMagnetic": 356, 
+        "runwayHeadingTrue": 001
+    },
+    {
+        "icao": "KHRL", 
+        "runwayId": "13", 
+        "runwayLength": 7257,
+        "runwayHeadingMagnetic": 131, 
+        "runwayHeadingTrue": 136
+    },
+    {
+        "icao": "KHRL", 
+        "runwayId": "31", 
+        "runwayLength": 7257, 
+        "runwayHeadingMagnetic": 311, 
+        "runwayHeadingTrue": 316
+    },
+    {
+        "icao": "KHRL", 
+        "runwayId": "17L", 
+        "runwayLength": 5949,
+        "runwayHeadingMagnetic": 176, 
+        "runwayHeadingTrue": 181
+    },
+    {
+        "icao": "KHRL", 
+        "runwayId": "35R", 
+        "runwayLength": 5949,
+        "runwayHeadingMagnetic": 356,
+        "runwayHeadingTrue": 001
+    }
+]}
+
+{"iata": "IAH" , 
+"icao": "KIAH" ,
+"airportName": "George Bush Intercontinental Airport" , 
+"airportCity": "Houston" , 
+"airporLat" : "29.9844444" , 
+"airportLon":"-95.3414444" , 
+"airportElevation": 96.4, 
+"runways": [
+    {
+        "icao": "KIAH", 
+        "runwayId": "15L", 
+        "runwayLength": 12001, 
+        "runwayHeadingMagnetic": 149, 
+        "runwayHeadingTrue": 152 
+    },
+    {
+        "icao": "KIAH", 
+        "runwayLength": 12001, 
+        "runwayHeadingMagnetic": 329, 
+        "runwayHeadingTrue": 332 
+    },
+    {
+        "icao": "KIAH", 
+        "runwayId": "9", 
+        "runwayLength": 10000, 
+        "runwayHeadingMagnetic": 087, 
+        "runwayHeadingTrue": 090
+    },
+    {
+        "icao": "KIAH", 
+        "runwayId": "27",
+        "runwayLength": 10000,
+        "runwayHeadingMagnetic": 267, 
+        "runwayHeadingTrue": 270
+    },
+    {
+        "icao": "KIAH",
+        "runwayId": "15R", 
+        "runwayLength": 10000,
+        "runwayHeadingMagnetic": 149, 
+        "runwayHeadingTrue": 152
+    },
+    {
+        "icao": "KIAH",
+        "runwayId": "33L", 
+        "runwayLength": 10000,
+        "runwayHeadingMagnetic": 329, 
+        "runwayHeadingTrue": 332
+    },
+    {
+        "icao": "KIAH", 
+        "runwayId": "8R", 
+        "runwayLength": 9402, 
+        "runwayHeadingMagnetic": 087, 
+        "runwayHeadingTrue": 090
+    },
+    {
+        "icao": "KIAH", 
+        "runwayId": "26L",
+        "runwayLength": 9402, 
+        "runwayHeadingMagnetic": 267,
+        "runwayHeadingTrue": 270
+    },
+    {
+        "icao": "KIAH", 
+        "runwayId": "8L", 
+        "runwayLength": 9000, 
+        "runwayHeadingMagnetic": 087, 
+        "runwayHeadingTrue": 090
+    },
+    {
+        "icao": "KIAH", 
+        "runwayId": "26R",
+        "runwayLength": 9000, 
+        "runwayHeadingMagnetic": 267, 
+        "runwayHeadingTrue": 270
+    },
+]}
+
+{"iata": "HOU" ,
+"icao": "KHOU" , 
+"airportName": "William P. Hobby Airport" ,
+"airportCity": "Houston" ,
+"airporLat" : "29.6454167" ,
+"airportLon":"-95.2788889" ,
+"airportElevation": 46.3,
+"runways": [
+    {
+        "icao": "KHOU", 
+        "runwayId": "4", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 041,
+        "runwayHeadingTrue": 044
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "22", 
+        "runwayLength": 7602,
+        "runwayHeadingMagnetic": 221,
+        "runwayHeadingTrue": 224
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "13R", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 131, 
+        "runwayHeadingTrue": 134
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "31L", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 311,
+        "runwayHeadingTrue": 314
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "17", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 176,
+        "runwayHeadingTrue": 179
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "35", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 356, 
+        "runwayHeadingTrue": 359
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "13L", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 131,
+        "runwayHeadingTrue": 134
+    },
+    {
+        "icao": "KHOU", 
+        "runwayId": "31R", 
+        "runwayLength": 7602, 
+        "runwayHeadingMagnetic": 311, 
+        "runwayHeadingTrue": 314
+    }
+]}
+
+{"iata": "LRD" ,
+"icao": "KLRD" , 
+"airportName": "Laredo International Airport" ,
+"airportCity": "Laredo" , 
+"airporLat" : "27.5441944" , 
+"airportLon":" -99.4615833" , 
+"airportElevation": 508, 
+"runways": [
+    {
+        "icao": "KLRD", 
+        "runwayId": "17R", 
+        "runwayLength": 8743,
+        "runwayHeadingMagnetic": 175,
+        "runwayHeadingTrue": 183
+    },
+    {
+        "icao": "KLRD", 
+        "runwayId": "35L", 
+        "runwayLength": 8743, 
+        "runwayHeadingMagnetic": 355,
+        "runwayHeadingTrue": 003 
+    },
+    {
+        "icao": "KLRD", 
+        "runwayId": "17L", 
+        "runwayLength": 8236, 
+        "runwayHeadingMagnetic": 175, 
+        "runwayHeadingTrue": 183   
+    },
+    {
+        "icao": "KLRD", 
+        "runwayId": "35R", 
+        "runwayLength": 8236, 
+        "runwayHeadingMagnetic": 355,
+        "runwayHeadingTrue": 003
+    },
+    {
+        "icao": "KLRD",
+        "runwayId": "14", 
+        "runwayLength": 5928, 
+        "runwayHeadingMagnetic":139 , 
+        "runwayHeadingTrue":147 
+    },
+    {
+        "icao": "KLRD",
+        "runwayId": "32", 
+        "runwayLength": 5928, 
+        "runwayHeadingMagnetic":319 ,
+        "runwayHeadingTrue":327    
+    }
+]}
+
+{"iata": "GGG" , 
+"icao": "KGGG" , 
+"airportName": "East Texas Regional Airport" , 
+"airportCity": "Longview" , 
+"airporLat" : "32.3840144" , 
+"airportLon":"-94.7114867" ,
+"airportElevation":365.1 , 
+"runways": [
+    {
+        "icao": "KGGG", 
+        "runwayId": "13", 
+        "runwayLength":10000 , 
+        "runwayHeadingMagnetic":131 ,
+        "runwayHeadingTrue":134 
+    },
+    {
+        "icao": "KGGG", 
+        "runwayId": "31", 
+        "runwayLength":10000 , 
+        "runwayHeadingMagnetic":311 , 
+        "runwayHeadingTrue":314 
+    },
+    {
+        "icao": "KGGG", 
+        "runwayId": "18",
+        "runwayLength":6109 ,
+        "runwayHeadingMagnetic":176 , 
+        "runwayHeadingTrue":179 
+    },
+    {
+        "icao": "KGGG", 
+        "runwayId": "36",
+        "runwayLength":6109 , 
+        "runwayHeadingMagnetic":356 , 
+        "runwayHeadingTrue":359 
+    }
+]}
+
+{"iata": "LBB" , 
+"icao": "KLBB" , 
+"airportName": "Lubbock Preston Smith International Airport" , 
+"airportCity": "Lubbock" , 
+"airporLat" : "33.6636667" , 
+"airportLon":"-101.8205556" , 
+"airportElevation":3282.4 , 
+"runways": [
+    {
+        "icao": "KLBB",
+        "runwayId": "17R", 
+        "runwayLength":11500 , 
+        "runwayHeadingMagnetic":171 ,
+        "runwayHeadingTrue":180 
+    },
+    {
+        "icao": "KLBB", 
+        "runwayId": "35L",
+        "runwayLength":11500 , 
+        "runwayHeadingMagnetic":351 ,
+        "runwayHeadingTrue":360 
+    },
+    {
+        "icao": "KLBB",
+        "runwayId": "8", 
+        "runwayLength":8003 , 
+        "runwayHeadingMagnetic":080 , 
+        "runwayHeadingTrue":089 
+    },
+    {
+        "icao": "KLBB", 
+        "runwayId": "26",
+        "runwayLength":8003 ,
+        "runwayHeadingMagnetic":260 ,
+        "runwayHeadingTrue":269 
+    },
+    {
+        "icao": "KLBB",
+        "runwayId": "17L", 
+        "runwayLength":2891 ,
+        "runwayHeadingMagnetic":171 ,
+        "runwayHeadingTrue":180 
+    },
+    {
+        "icao": "KLBB", 
+        "runwayId": "35R", 
+        "runwayLength":2891 , 
+        "runwayHeadingMagnetic":351 ,
+        "runwayHeadingTrue":360 
+        
+    }
+]}
+
+
+{"iata": "MFE" , "icao": "KMFE" , "airportName": "Mcallen-Miller International Airport" , "airportCity": "McAllen" , "airporLat" : "26.1758333" , "airportLon":"-98.2386111" , "airportElevation":107.3 , "runways": [
+    {
+        "icao": "KMFE", 
+        "runwayId": "14",
+        "runwayLength":7120 , 
+        "runwayHeadingMagnetic":137 , 
+        "runwayHeadingTrue":141 
+    },
+    {
+        "icao": "KMFE", 
+        "runwayId": "32", 
+        "runwayLength":7120 , 
+        "runwayHeadingMagnetic":317 , 
+        "runwayHeadingTrue":321
+    },
+    {
+        "icao": "KMFE", 
+        "runwayId": "18", 
+        "runwayLength":2638 , 
+        "runwayHeadingMagnetic":185 , 
+        "runwayHeadingTrue":189 
+    },
+    {
+        "icao": "KMFE", 
+        "runwayId": "36", 
+        "runwayLength":2638 , 
+        "runwayHeadingMagnetic":005 , 
+        "runwayHeadingTrue":009 
+    }
+]
+    
+}
+
+
+{"iata": "MAF" , 
+"icao": "KMAF" , 
+"airportName": "Midland Internation Airport" , 
+"airportCity": "Midland" , 
+"airporLat" : "31.9425278" , 
+"airportLon":"-102.2019167" , 
+"airportElevation":2872.1 , 
+"runways": [
+    {
+        "icao": "KMAF", 
+        "runwayId": "16R", 
+        "runwayLength": 9501,
+        "runwayHeadingMagnetic":166 ,
+        "runwayHeadingTrue":175
+    },
+    {
+        "icao": "KMAF", 
+        "runwayId": "34L", 
+        "runwayLength":9501 ,
+        "runwayHeadingMagnetic":346 ,
+        "runwayHeadingTrue":355 
+    },
+    {
+        "icao": "KMAF", 
+        "runwayId": "10", 
+        "runwayLength":8302 , 
+        "runwayHeadingMagnetic":105 , 
+        "runwayHeadingTrue":114    
+    },
+    {
+        "icao": "KMAF", 
+        "runwayId": "28", 
+        "runwayLength":8302 , 
+        "runwayHeadingMagnetic":285 , 
+        "runwayHeadingTrue":294 
+    },
+    {
+        "icao": "KMAF",
+        "runwayId": "4", 
+        "runwayLength":4605 , 
+        "runwayHeadingMagnetic":045 , 
+        "runwayHeadingTrue":054 },
+    {
+        "icao": "KMAF", 
+        "runwayId": "22", 
+        "runwayLength":4605 ,
+        "runwayHeadingMagnetic":225 , 
+        "runwayHeadingTrue":234        
+    },
+    {
+        "icao": "KMAF", 
+        "runwayId": "16L", 
+        "runwayLength":4247 , 
+        "runwayHeadingMagnetic":168 , 
+        "runwayHeadingTrue":177  
+    },
+    {
+        "icao": "KMAF",
+        "runwayId": "34R", 
+        "runwayLength":4247 , 
+        "runwayHeadingMagnetic":348 ,
+        "runwayHeadingTrue":257 
+    }
+]}
+
+{"iata": "SJT" , 
+"icao": "KSJT" , 
+"airportName": "San Angelo Regional Airport" ,
+"airportCity": "San Angelo" , 
+"airporLat" : "31.3577500" , 
+"airportLon":"-100.4963056" , 
+"airportElevation":1918.6 , 
+"runways":[
+    {
+        "icao": "KSJT", 
+        "runwayId": "18", 
+        "runwayLength":8049 , 
+        "runwayHeadingMagnetic":178 , 
+        "runwayHeadingTrue":187
+    },
+    {
+        "icao": "KSJT", 
+        "runwayId": "36", 
+        "runwayLength":8049 , 
+        "runwayHeadingMagnetic":358 ,
+        "runwayHeadingTrue":007    
+    },
+    {
+        "icao": "KSJT", 
+        "runwayId": "3", 
+        "runwayLength":5939 , 
+        "runwayHeadingMagnetic":034 ,
+        "runwayHeadingTrue":043   
+    },
+    {
+        "icao": "KSJT", 
+        "runwayId": "21",
+        "runwayLength":5939 ,
+        "runwayHeadingMagnetic":214 ,
+        "runwayHeadingTrue":223   
+    },
+    {
+        "icao": "KSJT", 
+        "runwayId": "9", 
+        "runwayLength":4402 , 
+        "runwayHeadingMagnetic":088 ,
+        "runwayHeadingTrue":097   
+    },
+    {
+        "icao": "KSJT", 
+        "runwayId": "27", 
+        "runwayLength":4402 , 
+        "runwayHeadingMagnetic":268 , 
+        "runwayHeadingTrue":277    
+    }
+]}
+
+
+
+{"iata": "SAT" , 
+"icao": "KSAT" , 
+"airportName": "San Antonio International Airport" ,
+"airportCity": "San Antonio" , 
+"airporLat" : "29.5339580" , 
+"airportLon":"-98.4690571" , 
+"airportElevation":809.1 ,
+"runways": [
+    {
+        "icao": "KSAT", 
+        "runwayId": "2", 
+        "runwayLength":8505 , 
+        "runwayHeadingMagnetic":037 ,
+        "runwayHeadingTrue":041    
+    },
+    {
+        "icao": "KSAT", 
+        "runwayId": "44", 
+        "runwayLength":8505 , 
+        "runwayHeadingMagnetic":217 , 
+        "runwayHeadingTrue":221     
+    },
+    {
+        "icao": "KSAT", 
+        "runwayId": "13R", 
+        "runwayLength":8502 , 
+        "runwayHeadingMagnetic":128 , 
+        "runwayHeadingTrue":132 
+    },
+    {
+        "icao": "KSAT", 
+        "runwayId": "31L", 
+        "runwayLength":8502 , 
+        "runwayHeadingMagnetic":308 , 
+        "runwayHeadingTrue":312 
+    },
+    {
+        "icao": "KSAT",
+        "runwayId": "13L", 
+        "runwayLength":5519 ,
+        "runwayHeadingMagnetic":128 , 
+        "runwayHeadingTrue":132 },
+    {
+        "icao": "KSAT", 
+        "runwayId": "31R", 
+        "runwayLength":5519 , 
+        "runwayHeadingMagnetic":308 , 
+        "runwayHeadingTrue":312 
+        
+    }
+]}
+
+
+{
+    "iata": "TYR" , 
+    "icao": "KTYR" , 
+    "airportName": "Tyler Pounds Regional Airport" , 
+    "airportCity": "Tyler" , 
+    "airporLat" : "32.3538311" , 
+    "airportLon":"-95.4026909" , 
+    "airportElevation":544.1 , 
+    "runways": [
+    {
+        "icao": "KTYR",
+        "runwayId": "4", 
+        "runwayLength":7802 , 
+        "runwayHeadingMagnetic":042 , 
+        "runwayHeadingTrue":045 
+    },
+    {
+        "icao": "KTYR", 
+        "runwayId": "22", 
+        "runwayLength":7802 , 
+        "runwayHeadingMagnetic":222 , 
+        "runwayHeadingTrue":225  
+    },
+    {
+        "icao": "KTYR", 
+        "runwayId": "13", 
+        "runwayLength":5200 , 
+        "runwayHeadingMagnetic":132 ,
+        "runwayHeadingTrue":135 
+    },
+    {
+        "icao": "KTYR", 
+        "runwayId": "31", 
+        "runwayLength":5200 , 
+        "runwayHeadingMagnetic":312 , 
+        "runwayHeadingTrue":315 
+    },
+    {
+        "icao": "KTYR", 
+        "runwayId": "17", 
+        "runwayLength":4849 , 
+        "runwayHeadingMagnetic":177 , 
+        "runwayHeadingTrue":180 
+    },
+    {
+        "icao": "KTYR", 
+        "runwayId": "35",
+        "runwayLength":4849 , 
+        "runwayHeadingMagnetic":357 ,
+        "runwayHeadingTrue":000 
+    }
+]}
+
+
+{"iata": "ACT" , 
+"icao": "KACT" ,
+"airportName": "Waco Regional Airport" , 
+"airportCity": "Waco" , 
+"airporLat" : "31.6121944" , 
+"airportLon":"-97.2303056" , 
+"airportElevation":516 , 
+"runways": [
+    {
+        "icao": "KACT", 
+        "runwayId": "1", 
+        "runwayLength":7107 , 
+        "runwayHeadingMagnetic":007 ,
+        "runwayHeadingTrue":014
+    },
+    {
+        "icao": "KACT", 
+        "runwayId": "19", 
+        "runwayLength":7107 , 
+        "runwayHeadingMagnetic":187 , 
+        "runwayHeadingTrue":194
+    },
+    {
+        "icao": "KACT", 
+        "runwayId": "14", 
+        "runwayLength":5103 ,
+        "runwayHeadingMagnetic":142 , 
+        "runwayHeadingTrue":149 
+    },
+    {
+        "icao": "KACT", 
+        "runwayId": "32", 
+        "runwayLength":5103 ,
+        "runwayHeadingMagnetic":332 ,
+        "runwayHeadingTrue":329 
+    },
+]}
+
+
+
+
+
+{"iata": "SPS" , 
+"icao": "KSPS" , 
+"airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" ,
+"airportCity": "Wichita Falls" , 
+"airporLat" : "33.9888028" , 
+"airportLon":"-98.4919028" , 
+"airportElevation": 998.3,
+"runways": "15R"[
+    {
+        "icao": "KSPS", 
+        "runwayId": "15R", 
+        "runwayLength":13100 ,
+        "runwayHeadingMagnetic":153 , 
+        "runwayHeadingTrue": 158 
+    },
+    {
+        "icao": "KSPS", 
+        "runwayId": "33L", 
+        "runwayLength":13100 , 
+        "runwayHeadingMagnetic":333 , 
+        "runwayHeadingTrue":338 
+    },
+    {
+        "icao": "KSPS", 
+        "runwayId": "15C", 
+        "runwayLength":10002 , 
+        "runwayHeadingMagnetic":153 , 
+        "runwayHeadingTrue":158 
+    },
+    {
+        "icao": "KSPS", 
+        "runwayId": "33C", 
+        "runwayLength":10002 , 
+        "runwayHeadingMagnetic":333 , 
+        "runwayHeadingTrue":338 
+    },
+    {
+        "icao": "KSPS", 
+        "runwayId": "17", 
+        "runwayLength":7021 , 
+        "runwayHeadingMagnetic":175 ,
+        "runwayHeadingTrue":180 
+    },
+    {
+        "icao": "KSPS", 
+        "runwayId": "35",
+        "runwayLength":7021 , 
+        "runwayHeadingMagnetic":355 , 
+        "runwayHeadingTrue":0
+    },
+    {
+        "icao": "KSPS",
+        "runwayId": "15L",
+        "runwayLength":6000 , 
+        "runwayHeadingMagnetic":153 , 
+        "runwayHeadingTrue":158 
+    },
+    {
+        "icao": "KSPS", 
+        "runwayId": "33R", 
+        "runwayLength":6000 , 
+        "runwayHeadingMagnetic":333 , 
+        "runwayHeadingTrue":338 
+    }
+]}
 
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 4[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 22[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 13R[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 31L[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 17[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 35[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 13L[RunwaySchema]}
-{"iata": "HOU" , "icao": "KHOU" , "airportName": "William P. Hobby Airport" , "airportCity": "Houston" , "airporLat" : "29.6454167" , "airportLon":"-95.2788889" , "airportElevation": 46.3, "runways": 31R[RunwaySchema]}
 
-{"iata": "LRD" , "icao": "KLRD" , "airportName": "Laredo International Airport" , "airportCity": "Laredo" , "airporLat" : "27.5441944" , "airportLon":" -99.4615833" , "airportElevation": 508, "runways": 17R[RunwaySchema]}
-{"iata": "LRD" , "icao": "KLRD" , "airportName": "Laredo International Airport" , "airportCity": "Laredo" , "airporLat" : "27.5441944" , "airportLon":" -99.4615833" , "airportElevation": 508, "runways": 35L[RunwaySchema]}
-{"iata": "LRD" , "icao": "KLRD" , "airportName": "Laredo International Airport" , "airportCity": "Laredo" , "airporLat" : "27.5441944" , "airportLon":" -99.4615833" , "airportElevation": 508, "runways": 17L[RunwaySchema]}
-{"iata": "LRD" , "icao": "KLRD" , "airportName": "Laredo International Airport" , "airportCity": "Laredo" , "airporLat" : "27.5441944" , "airportLon":" -99.4615833" , "airportElevation": 508, "runways": 35R[RunwaySchema]}
-{"iata": "LRD" , "icao": "KLRD" , "airportName": "Laredo International Airport" , "airportCity": "Laredo" , "airporLat" : "27.5441944" , "airportLon":" -99.4615833" , "airportElevation": 508, "runways": 14[RunwaySchema]}
-{"iata": "LRD" , "icao": "KLRD" , "airportName": "Laredo International Airport" , "airportCity": "Laredo" , "airporLat" : "27.5441944" , "airportLon":" -99.4615833" , "airportElevation": 508, "runways": 32[RunwaySchema]}
- 
-{"iata": "GGG" , "icao": "KGGG" , "airportName": "East Texas Regional Airport" , "airportCity": "Longview" , "airporLat" : "32.3840144" , "airportLon":"-94.7114867" , "airportElevation":365.1 , "runways": 13[RunwaySchema]}
-{"iata": "GGG" , "icao": "KGGG" , "airportName": "East Texas Regional Airport" , "airportCity": "Longview" , "airporLat" : "32.3840144" , "airportLon":"-94.7114867" , "airportElevation":365.1 , "runways": 31[RunwaySchema]}
-{"iata": "GGG" , "icao": "KGGG" , "airportName": "East Texas Regional Airport" , "airportCity": "Longview" , "airporLat" : "32.3840144" , "airportLon":"-94.7114867" , "airportElevation":365.1 , "runways": 18[RunwaySchema]}
-{"iata": "GGG" , "icao": "KGGG" , "airportName": "East Texas Regional Airport" , "airportCity": "Longview" , "airporLat" : "32.3840144" , "airportLon":"-94.7114867" , "airportElevation":365.1 , "runways": 36[RunwaySchema]}
 
-{"iata": "LBB" , "icao": "KLBB" , "airportName": "Lubbock Preston Smith International Airport" , "airportCity": "Lubbock" , "airporLat" : "33.6636667" , "airportLon":"-101.8205556" , "airportElevation":3282.4 , "runways": "17R"[RunwaySchema]}
-{"iata": "LBB" , "icao": "KLBB" , "airportName": "Lubbock Preston Smith International Airport" , "airportCity": "Lubbock" , "airporLat" : "33.6636667" , "airportLon":"-101.8205556" , "airportElevation":3282.4 , "runways": "35L"[RunwaySchema]}
-{"iata": "LBB" , "icao": "KLBB" , "airportName": "Lubbock Preston Smith International Airport" , "airportCity": "Lubbock" , "airporLat" : "33.6636667" , "airportLon":"-101.8205556" , "airportElevation":3282.4 , "runways": 8[RunwaySchema]}
-{"iata": "LBB" , "icao": "KLBB" , "airportName": "Lubbock Preston Smith International Airport" , "airportCity": "Lubbock" , "airporLat" : "33.6636667" , "airportLon":"-101.8205556" , "airportElevation":3282.4 , "runways": 26[RunwaySchema]}
-{"iata": "LBB" , "icao": "KLBB" , "airportName": "Lubbock Preston Smith International Airport" , "airportCity": "Lubbock" , "airporLat" : "33.6636667" , "airportLon":"-101.8205556" , "airportElevation":3282.4 , "runways": "17L"[RunwaySchema]}
-{"iata": "LBB" , "icao": "KLBB" , "airportName": "Lubbock Preston Smith International Airport" , "airportCity": "Lubbock" , "airporLat" : "33.6636667" , "airportLon":"-101.8205556" , "airportElevation":3282.4 , "runways": 35R[RunwaySchema]}
 
 
-{"iata": "MFE" , "icao": "KMFE" , "airportName": "Mcallen-Miller International Airport" , "airportCity": "McAllen" , "airporLat" : "26.1758333" , "airportLon":"-98.2386111" , "airportElevation":107.3 , "runways": 14[RunwaySchema]}
-{"iata": "MFE" , "icao": "KMFE" , "airportName": "Mcallen-Miller International Airport" , "airportCity": "McAllen" , "airporLat" : "26.1758333" , "airportLon":"-98.2386111" , "airportElevation":107.3 , "runways": 32[RunwaySchema]}
-{"iata": "MFE" , "icao": "KMFE" , "airportName": "Mcallen-Miller International Airport" , "airportCity": "McAllen" , "airporLat" : "26.1758333" , "airportLon":"-98.2386111" , "airportElevation":107.3 , "runways": 18[RunwaySchema]}
-{"iata": "MFE" , "icao": "KMFE" , "airportName": "Mcallen-Miller International Airport" , "airportCity": "McAllen" , "airporLat" : "26.1758333" , "airportLon":"-98.2386111" , "airportElevation":107.3 , "runways": 36[RunwaySchema]}
 
 
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": "16R"[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": "34L"[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": 10[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": 28[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": 4[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": 22[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": "16L"[RunwaySchema]}
-{"iata": "MAF" , "icao": "KMAF" , "airportName": "Midland Internation Airport" , "airportCity": "Midland" , "airporLat" : "31.9425278" , "airportLon":"-102.2019167" , "airportElevation":2872.1 , "runways": "34R"[RunwaySchema]}
 
-{"iata": "SJT" , "icao": "KSJT" , "airportName": "San Angelo Regional Airport" , "airportCity": "San Angelo" , "airporLat" : "31.3577500" , "airportLon":"-100.4963056" , "airportElevation":1918.6 , "runways": 18[RunwaySchema]}
-{"iata": "SJT" , "icao": "KSJT" , "airportName": "San Angelo Regional Airport" , "airportCity": "San Angelo" , "airporLat" : "31.3577500" , "airportLon":"-100.4963056" , "airportElevation":1918.6 , "runways": 36[RunwaySchema]}
-{"iata": "SJT" , "icao": "KSJT" , "airportName": "San Angelo Regional Airport" , "airportCity": "San Angelo" , "airporLat" : "31.3577500" , "airportLon":"-100.4963056" , "airportElevation":1918.6 , "runways": 3[RunwaySchema]}
-{"iata": "SJT" , "icao": "KSJT" , "airportName": "San Angelo Regional Airport" , "airportCity": "San Angelo" , "airporLat" : "31.3577500" , "airportLon":"-100.4963056" , "airportElevation":1918.6 , "runways": 21[RunwaySchema]}
-{"iata": "SJT" , "icao": "KSJT" , "airportName": "San Angelo Regional Airport" , "airportCity": "San Angelo" , "airporLat" : "31.3577500" , "airportLon":"-100.4963056" , "airportElevation":1918.6 , "runways": 9[RunwaySchema]}
-{"iata": "SJT" , "icao": "KSJT" , "airportName": "San Angelo Regional Airport" , "airportCity": "San Angelo" , "airporLat" : "31.3577500" , "airportLon":"-100.4963056" , "airportElevation":1918.6 , "runways": 27[RunwaySchema]}
 
 
 
-{"iata": "SAT" , "icao": "KSAT" , "airportName": "San Antonio International Airport" , "airportCity": "San Antonio" , "airporLat" : "29.5339580" , "airportLon":"-98.4690571" , "airportElevation":809.1 , "runways": 4[RunwaySchema]}
-{"iata": "SAT" , "icao": "KSAT" , "airportName": "San Antonio International Airport" , "airportCity": "San Antonio" , "airporLat" : "29.5339580" , "airportLon":"-98.4690571" , "airportElevation":809.1 , "runways": 22[RunwaySchema]}
-{"iata": "SAT" , "icao": "KSAT" , "airportName": "San Antonio International Airport" , "airportCity": "San Antonio" , "airporLat" : "29.5339580" , "airportLon":"-98.4690571" , "airportElevation":809.1 , "runways": "13R"[RunwaySchema]}
-{"iata": "SAT" , "icao": "KSAT" , "airportName": "San Antonio International Airport" , "airportCity": "San Antonio" , "airporLat" : "29.5339580" , "airportLon":"-98.4690571" , "airportElevation":809.1 , "runways": "31L"[RunwaySchema]}
-{"iata": "SAT" , "icao": "KSAT" , "airportName": "San Antonio International Airport" , "airportCity": "San Antonio" , "airporLat" : "29.5339580" , "airportLon":"-98.4690571" , "airportElevation":809.1 , "runways": "13L"[RunwaySchema]}
-{"iata": "SAT" , "icao": "KSAT" , "airportName": "San Antonio International Airport" , "airportCity": "San Antonio" , "airporLat" : "29.5339580" , "airportLon":"-98.4690571" , "airportElevation":809.1 , "runways": "31R"[RunwaySchema]}
-
-
-{"iata": "TYR" , "icao": "KTYR" , "airportName": "Tyler Pounds Regional Airport" , "airportCity": "Tyler" , "airporLat" : "32.3538311" , "airportLon":"-95.4026909" , "airportElevation":544.1 , "runways": 4[RunwaySchema]}
-{"iata": "TYR" , "icao": "KTYR" , "airportName": "Tyler Pounds Regional Airport" , "airportCity": "Tyler" , "airporLat" : "32.3538311" , "airportLon":"-95.4026909" , "airportElevation":544.1 , "runways": 22[RunwaySchema]}
-{"iata": "TYR" , "icao": "KTYR" , "airportName": "Tyler Pounds Regional Airport" , "airportCity": "Tyler" , "airporLat" : "32.3538311" , "airportLon":"-95.4026909" , "airportElevation":544.1 , "runways": 13[RunwaySchema]}
-{"iata": "TYR" , "icao": "KTYR" , "airportName": "Tyler Pounds Regional Airport" , "airportCity": "Tyler" , "airporLat" : "32.3538311" , "airportLon":"-95.4026909" , "airportElevation":544.1 , "runways": 31[RunwaySchema]}
-{"iata": "TYR" , "icao": "KTYR" , "airportName": "Tyler Pounds Regional Airport" , "airportCity": "Tyler" , "airporLat" : "32.3538311" , "airportLon":"-95.4026909" , "airportElevation":544.1 , "runways": 17[RunwaySchema]}
-{"iata": "TYR" , "icao": "KTYR" , "airportName": "Tyler Pounds Regional Airport" , "airportCity": "Tyler" , "airporLat" : "32.3538311" , "airportLon":"-95.4026909" , "airportElevation":544.1 , "runways": 35[RunwaySchema]}
-
-
-
-
-
-
-
-{"iata": "ACT" , "icao": "KACT" , "airportName": "Waco Regional Airport" , "airportCity": "Waco" , "airporLat" : "31.6121944" , "airportLon":"-97.2303056" , "airportElevation":516 , "runways": 1[RunwaySchema]}
-{"iata": "ACT" , "icao": "KACT" , "airportName": "Waco Regional Airport" , "airportCity": "Waco" , "airporLat" : "31.6121944" , "airportLon":"-97.2303056" , "airportElevation":516 , "runways": 19[RunwaySchema]}
-{"iata": "ACT" , "icao": "KACT" , "airportName": "Waco Regional Airport" , "airportCity": "Waco" , "airporLat" : "31.6121944" , "airportLon":"-97.2303056" , "airportElevation":516 , "runways": 14[RunwaySchema]}
-{"iata": "ACT" , "icao": "KACT" , "airportName": "Waco Regional Airport" , "airportCity": "Waco" , "airporLat" : "31.6121944" , "airportLon":"-97.2303056" , "airportElevation":516 , "runways": 32[RunwaySchema]}
-
-
-
-
-
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 998.3, "runways": "15R"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "33L"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "15C"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "33C"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "17"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "35"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "15L"[RunwaySchema]}
-{"iata": "SPS" , "icao": "KSPS" , "airportName": "Wichita Falls Municipal Airport/ Sheppard Air Force Base" , "airportCity": "Wichita Falls" , "airporLat" : "33.9888028" , "airportLon":"-98.4919028" , "airportElevation": 	1000.2, "runways": "33R"[RunwaySchema]}
-
-
-
-{"iata": "" , "icao": "" , "airportName": "" , "airportCity": "" , "airporLat" : "" , "airportLon":"" , "airportElevation": , "runways": 35R[RunwaySchema]}
-
-
-var RunwaySchema = new mongoose.Schema({
-    icao: String,
-    runwayId: String,
-    runwayLength: Number,
-    runwayHeadingMagnetic: Number,
-    runwayHeadingTrue: Number
-})
-
-{"icao": "KABI", "runwayId":"4", "runwayLength":3678, "runwayHeadingMagnetic": 047, "runwayHeadingTrue": 052}
-{"icao": "KABI", "runwayId":"22", "runwayLength":3678, "runwayHeadingMagnetic": 047, "runwayHeadingTrue": 052}
-{"icao": "KABI", "runwayId": "17R", "runwayLength":7202, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 180}
-{"icao": "KABI", "runwayId":"35L", "runwayLength":7202, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 360}
-{"icao": "KABI", "runwayId": "17L", "runwayLength":7198, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 180}
-{"icao": "KABI", "runwayId":"35R", "runwayLength":7198, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 360}
-
-{"icao": "KAMA", "runwayId":"4", "runwayLength": 13502, "runwayHeadingMagnetic": 038, "runwayHeadingTrue": 046}
-{"icao": "KAMA", "runwayId":"22", "runwayLength": 13502, "runwayHeadingMagnetic": 218, "runwayHeadingTrue": 226}
-{"icao": "KAMA", "runwayId":"13", "runwayLength": 7901, "runwayHeadingMagnetic": 129, "runwayHeadingTrue": 137}
-{"icao": "KAMA", "runwayId":"31", "runwayLength": 7901, "runwayHeadingMagnetic": 309, "runwayHeadingTrue": 317}
-
-{"icao": "KAUS", "runwayId": "17R", "runwayLength": 12250, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 180}
-{"icao": "KAUS", "runwayId":"35L", "runwayLength": 12250, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 360}
-{"icao": "KAUS", "runwayId": "17L", "runwayLength": 9000, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 180}
-{"icao": "KAUS", "runwayId":"35R", "runwayLength": 9000, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 360}
-
-{"icao": "KBPT", "runwayId": "12", "runwayLength": 6750, "runwayHeadingMagnetic": 116, "runwayHeadingTrue": 121}
-{"icao": "KBPT", "runwayId": "30", "runwayLength": 6750, "runwayHeadingMagnetic": 296, "runwayHeadingTrue": 301}
-{"icao": "KBPT", "runwayId": "16", "runwayLength": 5070, "runwayHeadingMagnetic": 161, "runwayHeadingTrue": 166}
-{"icao": "KBPT", "runwayId": "34", "runwayLength": 5070, "runwayHeadingMagnetic": 341, "runwayHeadingTrue": 346}
-
-{"icao": "KBRO", "runwayId": "13", "runwayLength": 7399 , "runwayHeadingMagnetic": 132, "runwayHeadingTrue": 135}
-{"icao": "KBRO", "runwayId": "31", "runwayLength": 7399, "runwayHeadingMagnetic": 312, "runwayHeadingTrue": 315}
-{"icao": "KBRO", "runwayId": "18", "runwayLength": 6000, "runwayHeadingMagnetic": 179, "runwayHeadingTrue": 182}
-{"icao": "KBRO", "runwayId": "36", "runwayLength": 6000, "runwayHeadingMagnetic": 182, "runwayHeadingTrue": 002}
-
-{"icao": "KCLL", "runwayId": "16", "runwayLength": 7000, "runwayHeadingMagnetic": 163, "runwayHeadingTrue": 169}
-{"icao": "KCLL", "runwayId": "34", "runwayLength": 7000, "runwayHeadingMagnetic": 343, "runwayHeadingTrue": 349}
-{"icao": "KCLL", "runwayId": "10", "runwayLength": 5159, "runwayHeadingMagnetic": 103, "runwayHeadingTrue": 109}
-{"icao": "KCLL", "runwayId": "28", "runwayLength": 5159, "runwayHeadingMagnetic": 283, "runwayHeadingTrue": 289}
-{"icao": "KCLL", "runwayId": "4", "runwayLength": 5149 , "runwayHeadingMagnetic": 044 , "runwayHeadingTrue": 050}
-{"icao": "KCLL", "runwayId": "22", "runwayLength": 5149, "runwayHeadingMagnetic": 224, "runwayHeadingTrue": 230}
-
-{"icao": "KCRP", "runwayId": "13", "runwayLength": 7510 , "runwayHeadingMagnetic": 132, "runwayHeadingTrue": 136 }
-{"icao": "KCRP", "runwayId": "31", "runwayLength": 7510, "runwayHeadingMagnetic": 312, "runwayHeadingTrue": 316}
-{"icao": "KCRP", "runwayId": "18", "runwayLength": 6080, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 179}
-{"icao": "KCRP", "runwayId": "36", "runwayLength": 6080, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 359}
-
-{"icao": "KDAL", "runwayId": "13L", "runwayLength": 7752, "runwayHeadingMagnetic": 133, "runwayHeadingTrue": 136}
-{"icao": "KDAL", "runwayId": "31R", "runwayLength": 7752, "runwayHeadingMagnetic": 313, "runwayHeadingTrue": 316}
-{"icao": "KDAL", "runwayId": "13L", "runwayLength": 8800, "runwayHeadingMagnetic": 133, "runwayHeadingTrue": 136}
-{"icao": "KDAL", "runwayId": "31R", "runwayLength": 8800, "runwayHeadingMagnetic": 313, "runwayHeadingTrue": 316}
-
-{"icao": "KDFW", "runwayId": "17C", "runwayLength": 13401, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180}
-{"icao": "KDFW", "runwayId": "35C", "runwayLength": 13401, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000}
-{"icao": "KDFW", "runwayId": "17R", "runwayLength": 13401, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180}
-{"icao": "KDFW", "runwayId": "35L", "runwayLength": 13401, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000}
-{"icao": "KDFW", "runwayId": "18L", "runwayLength": 13400, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180}
-{"icao": "KDFW", "runwayId": "36R", "runwayLength": 13400, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000}
-{"icao": "KDFW", "runwayId": "18R", "runwayLength": 13400, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 180}
-{"icao": "KDFW", "runwayId": "36L", "runwayLength": 13400, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000}
-{"icao": "KDFW", "runwayId": "13R", "runwayLength": 9301, "runwayHeadingMagnetic": 135, "runwayHeadingTrue": 139}
-{"icao": "KDFW", "runwayId": "31L", "runwayLength": 9301, "runwayHeadingMagnetic": 315, "runwayHeadingTrue": 319}
-{"icao": "KDFW", "runwayId": "13L", "runwayLength": 9000, "runwayHeadingMagnetic": 131, "runwayHeadingTrue": 135}
-{"icao": "KDFW", "runwayId": "31R", "runwayLength": 9000, "runwayHeadingMagnetic": 311, "runwayHeadingTrue": 315}
-{"icao": "KDFW", "runwayId": "17L", "runwayLength": 8500, "runwayHeadingMagnetic": 186, "runwayHeadingTrue": 180}
-{"icao": "KDFW", "runwayId": "35R", "runwayLength": 8500, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 000}
-
-{"icao": "KDRT", "runwayId": "13", "runwayLength": 6300, "runwayHeadingMagnetic": 132, "runwayHeadingTrue": 140}
-{"icao": "KDRT", "runwayId": "31", "runwayLength": 6300, "runwayHeadingMagnetic": 312, "runwayHeadingTrue": 320}
-
-
-{"icao": "KELP", "runwayId": "4", "runwayLength": 12020, "runwayHeadingMagnetic": 042, "runwayHeadingTrue": 050}
-{"icao": "KELP", "runwayId": "22", "runwayLength": 12020, "runwayHeadingMagnetic": 222, "runwayHeadingTrue": 230}
-{"icao": "KELP", "runwayId": "8R", "runwayLength": 9025, "runwayHeadingMagnetic": 085, "runwayHeadingTrue": 093}
-{"icao": "KELP", "runwayId": "26L", "runwayLength": 9025, "runwayHeadingMagnetic": 265, "runwayHeadingTrue": 273}
-{"icao": "KELP", "runwayId": "8L", "runwayLength": 5493, "runwayHeadingMagnetic": 085, "runwayHeadingTrue": 093}
-{"icao": "KELP", "runwayId": "26R", "runwayLength": 5493, "runwayHeadingMagnetic": 265, "runwayHeadingTrue": 273}
-
-{"icao": "KGRK", "runwayId": "15", "runwayLength": 10000, "runwayHeadingMagnetic": 150, "runwayHeadingTrue": 157}
-{"icao": "KGRK", "runwayId": "33", "runwayLength": 10000, "runwayHeadingMagnetic": 330, "runwayHeadingTrue": 337}
-
-{"icao": "KHRL", "runwayId": "17R", "runwayLength": 8301, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 181}
-{"icao": "KHRL", "runwayId": "35L", "runwayLength": 8301, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 001}
-{"icao": "KHRL", "runwayId": "13", "runwayLength": 7257, "runwayHeadingMagnetic": 131, "runwayHeadingTrue": 136}
-{"icao": "KHRL", "runwayId": "31", "runwayLength": 7257, "runwayHeadingMagnetic": 311, "runwayHeadingTrue": 316}
-{"icao": "KHRL", "runwayId": "17L", "runwayLength": 5949, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 181}
-{"icao": "KHRL", "runwayId": "35R", "runwayLength": 5949, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 001}
-
-{"icao": "KIAH", "runwayId": "15L", "runwayLength": 12001, "runwayHeadingMagnetic": 149, "runwayHeadingTrue": 152}
-{"icao": "KIAH", "runwayId": "33R", "runwayLength": 12001, "runwayHeadingMagnetic": 329, "runwayHeadingTrue": 332}
-{"icao": "KIAH", "runwayId": "9", "runwayLength": 10000, "runwayHeadingMagnetic": 087, "runwayHeadingTrue": 090}
-{"icao": "KIAH", "runwayId": "27", "runwayLength": 10000, "runwayHeadingMagnetic": 267, "runwayHeadingTrue": 270}
-{"icao": "KIAH", "runwayId": "15R", "runwayLength": 10000, "runwayHeadingMagnetic": 149, "runwayHeadingTrue": 152}
-{"icao": "KIAH", "runwayId": "33L", "runwayLength": 10000, "runwayHeadingMagnetic": 329, "runwayHeadingTrue": 332}
-{"icao": "KIAH", "runwayId": "8R", "runwayLength": 9402, "runwayHeadingMagnetic": 087, "runwayHeadingTrue": 090}
-{"icao": "KIAH", "runwayId": "26L", "runwayLength": 9402, "runwayHeadingMagnetic": 267, "runwayHeadingTrue": 270}
-{"icao": "KIAH", "runwayId": "8L", "runwayLength": 9000, "runwayHeadingMagnetic": 087, "runwayHeadingTrue": 090}
-{"icao": "KIAH", "runwayId": "26R", "runwayLength": 9000, "runwayHeadingMagnetic": 267, "runwayHeadingTrue": 270}
-
-{"icao": "KHOU", "runwayId": "4", "runwayLength": 7602, "runwayHeadingMagnetic": 041, "runwayHeadingTrue": 044}
-{"icao": "KHOU", "runwayId": "22", "runwayLength": 7602, "runwayHeadingMagnetic": 221, "runwayHeadingTrue": 224}
-{"icao": "KHOU", "runwayId": "13R", "runwayLength": 7602, "runwayHeadingMagnetic": 131, "runwayHeadingTrue": 134}
-{"icao": "KHOU", "runwayId": "31L", "runwayLength": 7602, "runwayHeadingMagnetic": 311, "runwayHeadingTrue": 314}
-{"icao": "KHOU", "runwayId": "17", "runwayLength": 7602, "runwayHeadingMagnetic": 176, "runwayHeadingTrue": 179}
-{"icao": "KHOU", "runwayId": "35", "runwayLength": 7602, "runwayHeadingMagnetic": 356, "runwayHeadingTrue": 359}
-{"icao": "KHOU", "runwayId": "13L", "runwayLength": 7602, "runwayHeadingMagnetic": 131, "runwayHeadingTrue": 134}
-{"icao": "KHOU", "runwayId": "31R", "runwayLength": 7602, "runwayHeadingMagnetic": 311, "runwayHeadingTrue": 314}
-
-{"icao": "KLRD", "runwayId": "17R", "runwayLength": 8743, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 183}
-{"icao": "KLRD", "runwayId": "35L", "runwayLength": 8743, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 003}
-{"icao": "KLRD", "runwayId": "17L", "runwayLength": 8236, "runwayHeadingMagnetic": 175, "runwayHeadingTrue": 183}
-{"icao": "KLRD", "runwayId": "35R", "runwayLength": 8236, "runwayHeadingMagnetic": 355, "runwayHeadingTrue": 003}
-{"icao": "KLRD", "runwayId": "14", "runwayLength": 5928, "runwayHeadingMagnetic":139 , "runwayHeadingTrue":147 }
-{"icao": "KLRD", "runwayId": "32", "runwayLength": 5928, "runwayHeadingMagnetic":319 , "runwayHeadingTrue":327 }
-
-
-
-
-{"icao": "KGGG", "runwayId": "13", "runwayLength":10000 , "runwayHeadingMagnetic":131 , "runwayHeadingTrue":134 }
-{"icao": "KGGG", "runwayId": "31", "runwayLength":10000 , "runwayHeadingMagnetic":311 , "runwayHeadingTrue":314 }
-{"icao": "KGGG", "runwayId": "18", "runwayLength":6109 , "runwayHeadingMagnetic":176 , "runwayHeadingTrue":179 }
-{"icao": "KGGG", "runwayId": "36", "runwayLength":6109 , "runwayHeadingMagnetic":356 , "runwayHeadingTrue":359 }
-
-{"icao": "KLBB", "runwayId": "17R", "runwayLength":11500 , "runwayHeadingMagnetic":171 , "runwayHeadingTrue":180 }
-{"icao": "KLBB", "runwayId": "35L", "runwayLength":11500 , "runwayHeadingMagnetic":351 , "runwayHeadingTrue":360 }
-{"icao": "KLBB", "runwayId": "8", "runwayLength":8003 , "runwayHeadingMagnetic":080 , "runwayHeadingTrue":089 }
-{"icao": "KLBB", "runwayId": "26", "runwayLength":8003 , "runwayHeadingMagnetic":260 , "runwayHeadingTrue":269 }
-{"icao": "KLBB", "runwayId": "17L", "runwayLength":2891 , "runwayHeadingMagnetic":171 , "runwayHeadingTrue":180 }
-{"icao": "KLBB", "runwayId": "35R", "runwayLength":2891 , "runwayHeadingMagnetic":351 , "runwayHeadingTrue":360 }
-
-{"icao": "KMFE", "runwayId": "14", "runwayLength":7120 , "runwayHeadingMagnetic":137 , "runwayHeadingTrue":141 }
-{"icao": "KMFE", "runwayId": "32", "runwayLength":7120 , "runwayHeadingMagnetic":317 , "runwayHeadingTrue":321 }
-{"icao": "KMFE", "runwayId": "18", "runwayLength":2638 , "runwayHeadingMagnetic":185 , "runwayHeadingTrue":189 }
-{"icao": "KMFE", "runwayId": "36", "runwayLength":2638 , "runwayHeadingMagnetic":005 , "runwayHeadingTrue":009 }
-
-{"icao": "KMAF", "runwayId": "16R", "runwayLength": 9501, "runwayHeadingMagnetic":166 , "runwayHeadingTrue":175 }
-{"icao": "KMAF", "runwayId": "34L", "runwayLength":9501 , "runwayHeadingMagnetic":346 , "runwayHeadingTrue":355 }
-{"icao": "KMAF", "runwayId": "10", "runwayLength":8302 , "runwayHeadingMagnetic":105 , "runwayHeadingTrue":114 }
-{"icao": "KMAF", "runwayId": "28", "runwayLength":8302 , "runwayHeadingMagnetic":285 , "runwayHeadingTrue":294 }
-{"icao": "KMAF", "runwayId": "4", "runwayLength":4605 , "runwayHeadingMagnetic":045 , "runwayHeadingTrue":054 }
-{"icao": "KMAF", "runwayId": "22", "runwayLength":4605 , "runwayHeadingMagnetic":225 , "runwayHeadingTrue":234 }
-{"icao": "KMAF", "runwayId": "16L", "runwayLength":4247 , "runwayHeadingMagnetic":168 , "runwayHeadingTrue":177 }
-{"icao": "KMAF", "runwayId": "34R", "runwayLength":4247 , "runwayHeadingMagnetic":348 , "runwayHeadingTrue":257 }
-
-
-{"icao": "KSJT", "runwayId": "18", "runwayLength":8049 , "runwayHeadingMagnetic":178 , "runwayHeadingTrue":187 }
-{"icao": "KSJT", "runwayId": "36", "runwayLength":8049 , "runwayHeadingMagnetic":358 , "runwayHeadingTrue":007 }
-{"icao": "KSJT", "runwayId": "3", "runwayLength":5939 , "runwayHeadingMagnetic":034 , "runwayHeadingTrue":043 }
-{"icao": "KSJT", "runwayId": "21", "runwayLength":5939 , "runwayHeadingMagnetic":214 , "runwayHeadingTrue":223 }
-{"icao": "KSJT", "runwayId": "9", "runwayLength":4402 , "runwayHeadingMagnetic":088 , "runwayHeadingTrue":097 }
-{"icao": "KSJT", "runwayId": "27", "runwayLength":4402 , "runwayHeadingMagnetic":268 , "runwayHeadingTrue":277 }
-
-
-{"icao": "KSAT", "runwayId": "2", "runwayLength":8505 , "runwayHeadingMagnetic":037 , "runwayHeadingTrue":041 }
-{"icao": "KSAT", "runwayId": "44", "runwayLength":8505 , "runwayHeadingMagnetic":217 , "runwayHeadingTrue":221 }
-{"icao": "KSAT", "runwayId": "13R", "runwayLength":8502 , "runwayHeadingMagnetic":128 , "runwayHeadingTrue":132 }
-{"icao": "KSAT", "runwayId": "31L", "runwayLength":8502 , "runwayHeadingMagnetic":308 , "runwayHeadingTrue":312 }
-{"icao": "KSAT", "runwayId": "13L", "runwayLength":5519 , "runwayHeadingMagnetic":128 , "runwayHeadingTrue":132 }
-{"icao": "KSAT", "runwayId": "31R", "runwayLength":5519 , "runwayHeadingMagnetic":308 , "runwayHeadingTrue":312 }
-
-
-
-{"icao": "KTYR", "runwayId": "4", "runwayLength":7802 , "runwayHeadingMagnetic":042 , "runwayHeadingTrue":045 }
-{"icao": "KTYR", "runwayId": "22", "runwayLength":7802 , "runwayHeadingMagnetic":222 , "runwayHeadingTrue":225 }
-{"icao": "KTYR", "runwayId": "13", "runwayLength":5200 , "runwayHeadingMagnetic":132 , "runwayHeadingTrue":135 }
-{"icao": "KTYR", "runwayId": "31", "runwayLength":5200 , "runwayHeadingMagnetic":312 , "runwayHeadingTrue":315 }
-{"icao": "KTYR", "runwayId": "17", "runwayLength":4849 , "runwayHeadingMagnetic":177 , "runwayHeadingTrue":180 }
-{"icao": "KTYR", "runwayId": "35", "runwayLength":4849 , "runwayHeadingMagnetic":357 , "runwayHeadingTrue":000 }
-
-{"icao": "KACT", "runwayId": "1", "runwayLength":7107 , "runwayHeadingMagnetic":007 , "runwayHeadingTrue":014 }
-{"icao": "KACT", "runwayId": "19", "runwayLength":7107 , "runwayHeadingMagnetic":187 , "runwayHeadingTrue":194 }
-{"icao": "KACT", "runwayId": "14", "runwayLength":5103 , "runwayHeadingMagnetic":142 , "runwayHeadingTrue":149 }
-{"icao": "KACT", "runwayId": "32", "runwayLength":5103 , "runwayHeadingMagnetic":332 , "runwayHeadingTrue":329 }
-
-
-
-{"icao": "KSPS", "runwayId": "15R", "runwayLength":13100 , "runwayHeadingMagnetic":153 , "runwayHeadingTrue": 158 }
-{"icao": "KSPS", "runwayId": "33L", "runwayLength":13100 , "runwayHeadingMagnetic":333 , "runwayHeadingTrue":338 }
-{"icao": "KSPS", "runwayId": "15C", "runwayLength":10002 , "runwayHeadingMagnetic":153 , "runwayHeadingTrue":158 }
-{"icao": "KSPS", "runwayId": "33C", "runwayLength":10002 , "runwayHeadingMagnetic":333 , "runwayHeadingTrue":338 }
-{"icao": "KSPS", "runwayId": "17", "runwayLength":7021 , "runwayHeadingMagnetic":175 , "runwayHeadingTrue":180 }
-{"icao": "KSPS", "runwayId": "35", "runwayLength":7021 , "runwayHeadingMagnetic":355 , "runwayHeadingTrue":0}
-{"icao": "KSPS", "runwayId": "15L", "runwayLength":6000 , "runwayHeadingMagnetic":153 , "runwayHeadingTrue":158 }
-{"icao": "KSPS", "runwayId": "33R", "runwayLength":6000 , "runwayHeadingMagnetic":333 , "runwayHeadingTrue":338 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
