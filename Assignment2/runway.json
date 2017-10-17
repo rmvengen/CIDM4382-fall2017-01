@@ -79,6 +79,31 @@ var RunwaySchema = new mongoose.Schema({
 {"icao": "KGRK", "runwayId": "15", "runwayLength": 10000, "runwayHeadingMagnetic": 150, "runwayHeadingTrue": 157}
 {"icao": "KGRK", "runwayId": "33", "runwayLength": 10000, "runwayHeadingMagnetic": 330, "runwayHeadingTrue": 337}
 
+{"icao": "KGGG", "runwayId": "13", "runwayLength":10000 , "runwayHeadingMagnetic":131 , "runwayHeadingTrue":134 }
+{"icao": "KGGG", "runwayId": "31", "runwayLength":10000 , "runwayHeadingMagnetic":311 , "runwayHeadingTrue":314 }
+{"icao": "KGGG", "runwayId": "18", "runwayLength":6109 , "runwayHeadingMagnetic":176 , "runwayHeadingTrue":179 }
+{"icao": "KGGG", "runwayId": "36", "runwayLength":6109 , "runwayHeadingMagnetic":356 , "runwayHeadingTrue":359 }
+
+{"icao": "KLBB", "runwayId": "17R", "runwayLength":11500 , "runwayHeadingMagnetic":171 , "runwayHeadingTrue":180 }
+{"icao": "KLBB", "runwayId": "35L", "runwayLength":11500 , "runwayHeadingMagnetic":351 , "runwayHeadingTrue":360 }
+{"icao": "KLBB", "runwayId": "8", "runwayLength":8003 , "runwayHeadingMagnetic":080 , "runwayHeadingTrue":089 }
+{"icao": "KLBB", "runwayId": "26", "runwayLength":8003 , "runwayHeadingMagnetic":260 , "runwayHeadingTrue":269 }
+{"icao": "KLBB", "runwayId": "17L", "runwayLength":2891 , "runwayHeadingMagnetic":171 , "runwayHeadingTrue":180 }
+{"icao": "KLBB", "runwayId": "35R", "runwayLength":2891 , "runwayHeadingMagnetic":351 , "runwayHeadingTrue":360 }
+
+{"icao": "KMFE", "runwayId": "14", "runwayLength":7120 , "runwayHeadingMagnetic":137 , "runwayHeadingTrue":141 }
+{"icao": "KMFE", "runwayId": "32", "runwayLength":7120 , "runwayHeadingMagnetic":317 , "runwayHeadingTrue":321 }
+{"icao": "KMFE", "runwayId": "18", "runwayLength":2638 , "runwayHeadingMagnetic":185 , "runwayHeadingTrue":189 }
+{"icao": "KMFE", "runwayId": "36", "runwayLength":2638 , "runwayHeadingMagnetic":005 , "runwayHeadingTrue":009 }
+
+{"icao": "KMAF", "runwayId": "16R", "runwayLength": 9501, "runwayHeadingMagnetic":166 , "runwayHeadingTrue":175 }
+{"icao": "KMAF", "runwayId": "34L", "runwayLength":9501 , "runwayHeadingMagnetic":346 , "runwayHeadingTrue":355 }
+{"icao": "KMAF", "runwayId": "10", "runwayLength":8302 , "runwayHeadingMagnetic":105 , "runwayHeadingTrue":114 }
+{"icao": "KMAF", "runwayId": "28", "runwayLength":8302 , "runwayHeadingMagnetic":285 , "runwayHeadingTrue":294 }
+{"icao": "KMAF", "runwayId": "4", "runwayLength":4605 , "runwayHeadingMagnetic":045 , "runwayHeadingTrue":054 }
+{"icao": "KMAF", "runwayId": "22", "runwayLength":4605 , "runwayHeadingMagnetic":225 , "runwayHeadingTrue":234 }
+{"icao": "KMAF", "runwayId": "16L", "runwayLength":4247 , "runwayHeadingMagnetic":168 , "runwayHeadingTrue":177 }
+{"icao": "KMAF", "runwayId": "34R", "runwayLength":4247 , "runwayHeadingMagnetic":348 , "runwayHeadingTrue":257 }
 
 
 {"icao": "KSJT", "runwayId": "18", "runwayLength":8049 , "runwayHeadingMagnetic":178 , "runwayHeadingTrue":187 }
