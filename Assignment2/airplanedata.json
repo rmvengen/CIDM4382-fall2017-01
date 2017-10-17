@@ -1,0 +1,24 @@
+var mongoose = require('mongoose');
+
+var RunwaySchema = new mongoose.Schema({
+    icao: String,
+    runwayId: String,
+    runwayLength: Number,
+    runwayHeadingMagnetic: Number,
+    runwayHeadingTrue: Number
+})
+
+var AirportSchema = new mongoose.Schema({
+    iata: String,
+    icao: String,
+    airportName: String,
+    airportCity: String,
+    airportLat: Number,
+    airportLon: Number,
+    airportElevation: Number,
+    runways: [RunwaySchema]
+});
+
+//airnav for the runwayheadingmagnetic and runwayheading true and runwau id is 4 & 22 or 17l/35r
+//wind distance of where taking off should be closest to the one the wind is going
+//basically the runway headings should be the closest in number for them to choose that runway
